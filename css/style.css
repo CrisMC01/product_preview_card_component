@@ -136,5 +136,5 @@ main {
     box-sizing: border-box;
     border-radius: 0 15px 15px 0; /* round right corners on desktop */
   }
-  /* No CSS `src:` here — use <picture> or srcset in HTML for responsive img sources. */
+  
 }
