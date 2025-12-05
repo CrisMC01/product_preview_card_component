@@ -23,7 +23,10 @@
     <!-- Product preview card component -->
      <div class="card product-card">
        
-        <img src="./images/image-product-mobile.jpg" class="card-img-top card-style" alt="Product Image">
+        <picture>
+          <source media="(min-width: 48em)" srcset="./images/image-product-desktop.jpg">
+          <img src="./images/image-product-mobile.jpg" class="card-img-top card-style" alt="Product Image">
+        </picture>
      
          <div class="card-body">
                 <div class="title-section">
